@@ -1,0 +1,38 @@
+[
+   {
+      "id": 0,
+      "nombre": "Fideo tirabuzon Matarazzo",
+      "precio": 90,
+      "img": "img/alimentos/Fideos-Tirabuzon-Matarazzo-500gr.jpg"
+   },
+   {
+      "id": 1,
+      "nombre": "Harina Leudante BlancaFlor",
+      "precio": 55,
+      "img": "img/alimentos/Harina-De-Trigo-Leudante-Blancaflor-1kg.jpg"
+   },
+   {
+      "id": 2,
+      "nombre": "Rapiditas Clasicas",
+      "precio": 120,
+      "img": "img/alimentos/Pan-Arabe-Clasicas-10p-Rapiditas-275-Gr.jpg"
+   },
+   {
+      "id": 3,
+      "nombre": "Mayonesa Hellmans 475g",
+      "precio": 105,
+      "img": "img/alimentos/Mayonesa-Hellmanns.jpg"
+   },
+   {
+      "id": 4,
+      "nombre": "Mostaza Natura",
+      "precio": 75,
+      "img": "img/alimentos/Mostaza-Natura-250-Cc.jpg"
+   },
+   {
+      "id": 5,
+      "nombre": "Oregano La Campagnola",
+      "precio": 55,
+      "img": "img/alimentos/Or-gano-La-Campagnola-50gr.jpg"
+   }
+]
