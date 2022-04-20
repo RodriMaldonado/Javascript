@@ -7,7 +7,7 @@
   const DOMbotonVaciar = document.querySelector('#boton-vaciar');
   
 
-  fetch('http://127.0.0.1:5500/data.json')
+  fetch('/data.json')
   .then((res) => res.json())
   .then((productos) => {
       
