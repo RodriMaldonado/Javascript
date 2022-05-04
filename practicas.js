@@ -1,4 +1,41 @@
-
+ const productos =[
+{
+     id: 0,
+     nombre: "Fideo tirabuzon Matarazzo",
+     precio: 90,
+     img: 'img/alimentos/Fideos-Tirabuzon-Matarazzo-500gr.jpg'
+  },
+  {
+     id: 1,
+     nombre: "Harina Leudante BlancaFlor",
+     precio: 55,
+     img: "img/alimentos/Harina-De-Trigo-Leudante-Blancaflor-1kg.jpg"
+  },
+  {
+     id: 2,
+     nombre: "Rapiditas Clasicas",
+     precio: 120,
+     img: "img/alimentos/Pan-Arabe-Clasicas-10p-Rapiditas-275-Gr.jpg"
+  },
+  {
+     id: 3,
+     nombre: "Mayonesa Hellmans 475g",
+     precio: 105,
+     img: "img/alimentos/Mayonesa-Hellmanns.jpg"
+  },
+  {
+     id: 4,
+     nombre: "Mostaza Natura",
+     precio: 75,
+     img: "img/alimentos/Mostaza-Natura-250-Cc.jpg"
+  },
+  {
+     id: 5,
+     nombre: "Oregano La Campagnola",
+     precio: 55,
+     img: "img/alimentos/Or-gano-La-Campagnola-50gr.jpg"
+  }
+]
   let carrito = []
   const divisa = '$';
   const DOMitems = document.querySelector('#items');
@@ -7,10 +44,6 @@
   const DOMbotonVaciar = document.querySelector('#boton-vaciar');
   
 
-  fetch('/data.json')
-  .then((res) => res.json())
-  .then((productos) => {
-      
   function renderizarProductos()  {
     productos.forEach((producto) => {
       /* Estructura */
@@ -144,7 +177,7 @@
  
  // Eventos
  DOMbotonVaciar.addEventListener('click', vaciarCarrito);
-});
+
  
 
 /* Imagenes footer */
@@ -192,4 +225,3 @@ footer.append(parrafo);
 ulList.append(liList0);
 ulList.append(liList1);
 ulList.append(liList2); 
-
